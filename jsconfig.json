@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/js/*"],
+      "@pags/*": ["src/js/paginas/*"],
+      "@tabs/*": ["src/js/paginas/pestanas/*"],
+      "@comp/*": ["src/shared/componentes/*"],
+      "@conf/*": ["src/shared/config/*"],
+      "@nav/*": ["src/app_navigator/navegacion/*"],
+      "@asset/*": ["src/assets/*"], // 👈 añade /* aquí
+      "@util/*": ["src/shared/utils/*"],
+      "@api/*": ["src/shared/api/*"]
+
+    }
+  },
+  "exclude": ["node_modules"]
+}
