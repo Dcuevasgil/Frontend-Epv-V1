@@ -1,0 +1,45 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo / Web
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native Android (si algún día haces prebuild/eject)
+android/.gradle/
+android/.idea/
+android/app/build/
+android/local.properties
+
+# Native iOS (si algún día haces prebuild/eject)
+ios/Pods/
+ios/build/
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env.local
+.env.*.local
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Editors
+.vscode/
+.idea/
