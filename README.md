@@ -1,4 +1,4 @@
-# EPV Trainer – Backend API
+# EPV Trainer – Frontend
 ## Ciclo: Desarrollo de Aplicaciones Web (DAW)
 ### Autor: David Cuevas Gil
 
