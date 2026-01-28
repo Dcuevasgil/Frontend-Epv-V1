@@ -6,19 +6,21 @@
 
 ## Índice
 
-1. Introducción  
-2. Descripción del proyecto  
-3. Justificación y motivación  
-4. Objetivos  
-5. Funcionalidades del frontend  
-6. Tecnologías utilizadas  
-7. Arquitectura del frontend  
-8. Estructura del proyecto  
-9. Configuración y ejecución  
-10. Consumo de la API  
-11. Conclusión  
-12. Licencia  
-13. Contacto  
+1. [Introducción](#introducción)
+2. [Descripción del proyecto](#descripción-del-proyecto)
+3. [Justificación y motivación](#justificación-y-motivación)
+4. [Objetivos](#objetivos)
+5. [Funcionalidades del frontend](#funcionalidades-del-frontend)
+6. [Tecnologías utilizadas](#tecnologías-utilizadas)
+7. [Arquitectura del frontend](#arquitectura-del-frontend)
+8. [Estructura del proyecto](#estructura-del-proyecto)
+9. [Guía de instalación](#guía-de-instalación)
+10. [Guía de uso](#guía-de-uso)
+11. [Enlace a la documentación](#enlace-a-la-documentación)
+12. [Conclusión](#conclusión)
+13. [Contribuciones, agradecimientos y referencias](#contribuciones-agradecimientos-y-referencias)
+14. [Licencias](#licencias)
+15. [Contacto](#contacto)
 
 ---
 
@@ -97,7 +99,7 @@ El proyecto sigue una arquitectura modular basada en responsabilidades:
 
 - **Pantallas (`paginas`)**: vistas principales de la aplicación.
 - **Componentes compartidos**: elementos reutilizables de interfaz.
-- **Servicios API**: comunicación con el backend.
+- **Servicios API**: comunicación con el frontend.
 - **Configuración**: constantes, variables de entorno y ajustes globales.
 - **Utilidades**: funciones auxiliares.
 - **Navegación**: definición de stacks y pestañas.
@@ -173,13 +175,13 @@ EXPO_PUBLIC_API_URL=http://TU_IP_LOCAL:8000/api/v1
 npx expo start
 ```
 ## Consumo de la API
-El frontend se comunica con el backend mediante peticiones HTTP utilizando fetch.
+El frontend se comunica con el frontend mediante peticiones HTTP utilizando fetch.
 
 Ejemplo de encabezado requerido para rutas protegidas:
 ```http
 Authorization: Bearer <TOKEN_JWT>
 ```
-El token JWT se almacena de forma local y se adjunta automáticamente en cada petición autenticada al backend.
+El token JWT se almacena de forma local y se adjunta automáticamente en cada petición autenticada al frontend.
 
 ## Conclusión
 
